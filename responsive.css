@@ -1,0 +1,54 @@
+
+@media only screen and (max-width: 768px) {
+    .inner-div {
+      margin: 50px auto;
+      min-width: 50%;
+      max-width: 90%;
+    }
+    
+    #heading {
+      font-size: 24px;
+    }
+    
+    #timer {
+      font-size: 1.5em;
+    }
+    
+    .font-style {
+      font-size: 12px;
+      letter-spacing: 1px;
+      padding: 10px;
+    }
+    
+    #start, #stop, #reset {
+      font-size: 12px;
+      padding: 10px 20px;
+    }
+  }
+  
+  @media only screen and (max-width: 480px) {
+    .inner-div {
+      margin: 20px auto;
+      min-width: 70%;
+      max-width: 90%;
+    }
+    
+    #heading {
+      font-size: 20px;
+    }
+    
+    #timer {
+      font-size: 1em;
+    }
+    
+    .font-style {
+      font-size: 10px;
+      letter-spacing: 0.5px;
+      padding: 5px;
+    }
+    
+    #start, #stop, #reset {
+      font-size: 10px;
+      padding: 8px 16px;
+    }
+  }

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <!-- Link to external style sheet -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Link to external responsive.css file-->
+    <link rel="stylesheet" href="responsive.css">
+
+
+    <title>Stop Watch</title>
+</head>
+
+<body>
+    <center>
+
+        <!-- Define stopwatch container -->
+        <div class="container">
+
+            <!-- Display stopwatch heading -->
+            <h4 id="heading">STOPWATCH</h4>
+
+            <!-- Display stopwatch timer -->
+            <h1 id="timer">0:0:0</h1>
+
+            <!-- Define stopwatch control buttons -->
+            <button id="start" class="font-style" onclick="start();">Start</button>
+            <button id="stop" class="font-style" onclick="stop();">Stop</button>
+            <button id="reset" class="font-style" onclick="reset();">Reset</button>
+        </div>
+
+    </center>
+
+    <!-- Link to external script file that implements stopwatch functionality -->
+    <script src="script.js"></script>
+</body>
+
+</html>
